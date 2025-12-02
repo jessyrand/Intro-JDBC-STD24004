@@ -27,6 +27,9 @@ public class Main {
                 System.out.println(user);
             }
 
+            conn.close();
+            System.out.println("Connexion fermée !");
+
         } catch (Exception e) {
             System.out.println("Erreur : " + e.getMessage());
             e.printStackTrace();
